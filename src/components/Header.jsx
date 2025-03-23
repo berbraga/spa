@@ -2,7 +2,7 @@ import { Link } from 'react-scroll';
 
 function Header() {
   return (
-    <header className="fixed top-0 left-0 w-full  text-black py-4  z-50">
+    <header className="fixed top-0 left-0 w-full py-4 z-50 ">
       <nav className="container mx-auto flex justify-center">
         <ul className="flex space-x-6 text-lg">
           <li>
@@ -10,7 +10,7 @@ function Header() {
               to="home"
               smooth={true}
               duration={500}
-              className="cursor-pointer border-2 border-white px-4 py-2 rounded-md hover:bg-white hover:text-gray-900 transition-all"
+              className="cursor-pointer border-2 border-blue-900 px-4 py-2 rounded-md hover:bg-blue-900 hover:text-white transition-all"
             >
               Início
             </Link>
@@ -20,7 +20,7 @@ function Header() {
               to="sobre"
               smooth={true}
               duration={500}
-              className="cursor-pointer border-2 border-white px-4 py-2 rounded-md hover:bg-white hover:text-gray-900 transition-all"
+              className="cursor-pointer border-2 border-blue-900 px-4 py-2 rounded-md hover:bg-blue-900 hover:text-white transition-all"
             >
               Nossa Equipe
             </Link>
@@ -30,7 +30,7 @@ function Header() {
               to="resultados"
               smooth={true}
               duration={500}
-              className="cursor-pointer border-2 border-white px-4 py-2 rounded-md hover:bg-white hover:text-gray-900 transition-all"
+              className="cursor-pointer border-2 border-blue-900 px-4 py-2 rounded-md hover:bg-blue-900 hover:text-white transition-all"
             >
               Resultados
             </Link>
@@ -40,7 +40,7 @@ function Header() {
               to="contato"
               smooth={true}
               duration={500}
-              className="cursor-pointer border-2 border-white px-4 py-2 rounded-md hover:bg-white hover:text-gray-900 transition-all"
+              className="cursor-pointer border-2 border-blue-900 px-4 py-2 rounded-md hover:bg-blue-900 hover:text-white transition-all"
             >
               Contato
             </Link>

@@ -1,3 +1,4 @@
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, EffectFade } from "swiper/modules";
 import "swiper/css";
@@ -31,7 +32,7 @@ const depoimentos = [
 
 export default function CarrosselDepoimentos() {
   return (
-    <div className="w-full h-full mx-auto">
+    <section id="contato" className="w-full h-full mx-auto">
       <Swiper
         modules={[Navigation, Pagination, EffectFade]}
         navigation
@@ -54,6 +55,6 @@ export default function CarrosselDepoimentos() {
           </SwiperSlide>
         ))}
       </Swiper>
-    </div>
+    </section>
   );
 }

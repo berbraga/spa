@@ -7,10 +7,10 @@ import LogoBranca from '/logo-branca.png';
 
 function App() {
   return (
-    <div className="w-[1300px] h-screen overflow-y-scroll scroll-smooth snap-y snap-mandatory flex flex-col justify-center ">
+    <div className="w-[1000px] h-full overflow-y-scroll scroll-smooth snap-y snap-mandatory flex flex-col justify-center ">
       <Header />
       <Home />
-      <div className="h-[166px] w-full  flex justify-center" style={{backgroundColor: '#CEEBF1'}}>
+      <div className="h-[100px] w-full  flex justify-center" style={{backgroundColor: '#CEEBF1'}}>
         <img src={LogoBranca} alt="logo do Einstain Floripa" className="w-[380px]  object-contain flex justify-center" />
       </div>
       <Sobre />

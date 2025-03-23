@@ -2,10 +2,10 @@ import alunos from '/conjunto-de-imagens.png';
 
 function Sobre() {
   return (
-    <section id="sobre" className="h-screen flex flex-col items-center justify-center text-center bg-white">
+    <section id="sobre" className="h-[500px] flex flex-col items-center justify-center text-center bg-white">
       <h2 className="text-3xl font-semibold text-gray-800 mb-4">Prazer, nós somos o Einstein Floripa!</h2>
       <div className="flex">
-        <img src={alunos} alt="Equipe reunida" className="w-100 rounded-lg mb-4" />
+        <img src={alunos} alt="Equipe reunida" className="w-[400px] h-[400px] rounded-lg mb-4" />
         <p className="text-lg text-gray-600 max-w-xl text-right">
 
 Somos constituídos de uma equipe repleta de universitários determinados, imersos numa experiência de constante aprendizado, ampliando suas possibilidades pessoais e profissionais.<br/><br/>
